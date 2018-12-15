@@ -13,7 +13,8 @@ SoM Overview section enumerates the SoM processing, peripherals and packaging sp
 #### Developer Kit Overview
 The NVIDIA Jetson Xavier Developer Kit has two main parts:
 - Jetson Xavier Module with a thermal solution preattach
-- Jetson Xavier Carrier Board
+- Jetson Xavier Carrier Board  
+
 The carrier board was developed to be small and delivering the maximum possible options for prototyping. Following we show each of the carrier board sides and its components:
 
 ## Carrier Boards
