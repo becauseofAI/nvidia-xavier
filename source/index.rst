@@ -10,8 +10,9 @@ Welcome to NVIDIA Xavier's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   hello-xavier
-   introduction
+   docs/helloxavier/hello-xavier
+   docs/introduction/introduction
+   docs/jetpack/jetpack-41
 
 
 

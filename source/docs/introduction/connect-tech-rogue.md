@@ -1,0 +1,3 @@
+# Connect Tech Rogue
+## Description
+Connect Tech’s Rogue is a full featured Carrier Board for the Jetson Xavier. It is specifically designed for commercially deployable platforms, and has a extreme small footprint of 92 x 105mm. It exposes similar interfaces than the developer kit, but adds 3x USB 3.1, 2x GbE, 2x HDMI and a locking Mini-Fit Jr. power input connector. Rugged camera add-on expansion boards will also be available for use with the Rogue to interface directly with the Xavier high density MIPI CSI interfaces.
