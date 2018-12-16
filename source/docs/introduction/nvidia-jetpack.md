@@ -4,4 +4,4 @@ Jetpack is an SDK that offers NVIDIA to develop for the NVIDIA Jetson platforms.
 
 Following are the Jetpack packages available for the Jetson Xavier:
 
-- [Jetpack 4.1 EA]() (Released on September 2018)
+- [Jetpack 4.1 EA](https://nvidia-xavier.readthedocs.io/en/latest/docs/jetpack/jetpack-41.html) (Released on September 2018)
