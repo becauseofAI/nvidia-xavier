@@ -1,17 +1,68 @@
 # SoM Overview
 SoM Overview section enumerates the SoM processing, peripherals and packaging specifications.
 ## Processing Specifications
-| Feature | <ul><center>Description</center></ul> |
-| :---: |  :--- |
-| GPU | 512-core Volta @ 1.37GHz with 64 Tensor Cores |
-| CPU | 8 NVIDIA Carmel ARMv8.2 (64bit) CPU @ 2.26GHz / 8MB L2 + 4MB L3 |
-| Memory | 16 GB, 256-bit LPDDR4x @ 2133MHz (137GB/s) |
-| Storage | 32GB eMMC 5.1 Flash Storage @ 200MHz |
-| DLA | 2 NVDLA engines Deep Learning Accelerator |
-| VA | (2x) 7-way VLIW Vision Accelerator |
-| Encoder | <ul><li>H.265(HEVC) up to 2x 4Kp60</li><li>H.264 up to 4x 4Kp60</li><li>VP9 up to 2x 4Kp60</li><li>JPEG up to 16Kx16K</li></ul>|
-| Decoder | <ul><li>H.265(HEVC) up to 2x 8Kp30</li><li>H.264 up to 4x 4Kp60</li><li>VP9 up to 4x 4Kp60</li><li>JPEG up to 16Kx16K</li><li>MPEG-4</li><li>MPEG-2</li><li>VC-1</li></ul>|
-
+<style>  
+table{text-align:center;vertical-align:middle;color:black;margin:auto}  
+tr{height:40px}
+td{vertical-align:middle}
+</style>
+<table rules="all"  frame="box" bgcolor="#f0f0f0" border=2 cellpadding=10 cellspacing=0>
+    <tr bgcolor="#76b700">
+        <th>Feature</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>GPU</td>
+        <td align="left">8 NVIDIA Carmel ARMv8.2 (64bit) CPU @ 2.26GHz / 8MB L2 + 4MB L3</td>
+    </tr>
+    <tr>
+        <td>CPU</td>
+        <td align="left">699 pin board to board connector</td>
+    </tr>
+     <tr>
+        <td>Memory</td>
+        <td align="left">16 GB, 256-bit LPDDR4x @ 2133MHz (137GB/s)</td>
+    </tr>
+     <tr>
+        <td>Storage</td>
+        <td align="left">32GB eMMC 5.1 Flash Storage @ 200MHz</td>
+    </tr>
+    <tr>
+        <td>DLA</td>
+        <td align="left">2 NVDLA engines Deep Learning Accelerator</td>
+    </tr>
+    <tr>
+        <td>VA</td>
+        <td align="left">(2x) 7-way VLIW Vision Accelerator</td>
+    </tr>
+    <tr>
+        <td>Encoder</td>
+        <td align="left">
+            <ul>
+                <li>H.265(HEVC) up to 2x 4Kp60</li>
+                <li>H.264 up to 4x 4Kp60</li>
+                <li>VP9 up to 2x 4Kp60</li>
+                <li>JPEG up to 16Kx16K</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>Decoder</td>
+        <td align="left">
+            <ul>
+                <li>H.265(HEVC) up to 2x 8Kp30</li>
+                <li>H.264 up to 4x 4Kp60</li>
+                <li>VP9 up to 4x 4Kp60</li>
+                <li>JPEG up to 16Kx16K</li>
+                <li>MPEG-4</li>
+                <li>MPEG-2</li>
+                <li>VC-1</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+  
+---
 ## Peripherals
 - xHCI host controller with integrated PHY
 - 3 x USB 3.1 (10GT/s)
@@ -30,15 +81,43 @@ Up to 16 simultaneous cameras</li></ul>
 - 5 x I2C
 - 2 x CAN
 - 4 x I2S
-
+---
 ## Package
-| Feature | Description |
-| :---: |  :---: |
-| Module Size | 100 mm x 87 mm |
-| Connector | 699 pin board to board connector |
-| Operating Temperature | Range from -25C to 80C |
-| Power Input | 9V - 20V |
-| TPP | Integrated Thermal Transfer Plate with Heatpipe |
+<style>  
+table{text-align:center;color:black;margin:auto}  
+tr{height:40px}
+td{vertical-align:middle}
+</style>
+<table rules="all"  frame="box" bgcolor="#f0f0f0" border=2 cellpadding=10 cellspacing=0>
+    <tr bgcolor="#76b700">
+        <th>Feature</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <td>Module Size</td>
+        <td>100 mm x 87 mm</td>
+    </tr>
+    <tr>
+        <td>Connector</td>
+        <td>699 pin board to board connector</td>
+    </tr>
+     <tr>
+        <td>Operating Temperature</td>
+        <td>Range from -25C to 80C</td>
+    </tr>
+     <tr>
+        <td>Power Input</td>
+        <td>9V - 20V</td>
+    </tr>
+    <tr>
+        <td>TPP</td>
+        <td>Integrated Thermal Transfer Plate with Heatpipe</td>
+    </tr>
+</table>
+
+---
+
+
 
 ```eval_rst
 
